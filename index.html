@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap" rel="stylesheet">
+    <title>Contact</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="myHeader">
+       <h1 id="contact">CONTACT</h1>
+    </div>
+    <h2 id="socialMediaTitle">Social Media</h2>
+    <a href="https://www.linkedin.com/in/eleni-k-a1a1911b7/" target="_blank"><i class="fa fa-linkedin" id="socialMedia1"></i></a>
+    <a href="https://github.com/Lena341" id="socialMedia2" target="_blank"><i class="fa fa-github"></i></a>
+    <!--<p class="horizontalLine" style="font-size: 40px; font-weight:100;">or</p> -->
+    <div class="contactForm">
+        <form action="">
+            <div class="nameForm">
+              <label for="firstName">Name</label><br>
+              <input type="text" required name="Name"><br>
+            </div>
+            <div class="emailForm">
+              <label for="email">Email</label><br>
+              <input type="email" required name="Email"><br>
+            </div>
+            <div class="messageForm">
+              <label for="message">Message</label><br>
+              <textarea name="message" placeholder="Write your message..." style="border: 1px solid black; padding-right: 90px; padding-bottom: 40px;"></textarea>
+            </div>
+            <button id="submitButton" type="submit">SEND</button>
+        </form>
+    </div>
+</body>
+</html>
