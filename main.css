@@ -2,7 +2,7 @@ body
 {
     background-color: white;
     font-family: 'Raleway', sans-serif;
-    overflow: scroll;
+    overflow: auto;
     white-space: nowrap;
 }
 
@@ -138,7 +138,8 @@ body
 {
     body
     {
-        overflow: scroll;
+        bottom: 0;
+        overflow: auto;
     }
     #socialMedia1
     {
@@ -188,8 +189,8 @@ body
 {
     body
     {
-        overflow-x: scroll;
-        overflow-y: scroll;
+        bottom: 0;
+        overflow: auto;
     }
     #socialMedia1
     {
