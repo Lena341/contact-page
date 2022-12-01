@@ -138,18 +138,17 @@ body
 {
     body
     {
-        bottom: 0;
         overflow: auto;
     }
     #socialMedia1
     {
-       position: fixed;
        top: 400px;
        left: 550px;
+         overflow: auto;
     }
     #socialMedia2
     {
-        position: fixed;
+         overflow: auto;
         top: 400px;
         left: 450px;
     }
@@ -157,21 +156,25 @@ body
     {
         top: 490px;
         left: 300px;
+         overflow: auto;
     }
     .emailForm
     {
         top: 490px;
         left: 570px;
+         overflow: auto;
     }
     .messageForm
     {
         top: 610px;
         left: 300px;
+         overflow: auto;
     }
     #contact
     {
         top: 55px;
         left: 390px;
+         overflow: auto;
     }
     #submitButton
     {
@@ -182,6 +185,7 @@ body
     {
         top: 250px;
         left: 400px;
+         overflow: auto;
     }
 }
 
@@ -189,47 +193,54 @@ body
 {
     body
     {
-        bottom: 0;
         overflow: auto;
     }
     #socialMedia1
     {
         top: 400px;
         left: 250px;
+         overflow: auto;
     }
     #socialMedia2
     {
         top: 400px;
         left: 150px;
+         overflow: auto;
     }
     .nameForm
     {
         top: 490px;
         left: 50px;
+         overflow: auto;
     }
     .emailForm
     {
         top: 490px;
         left: 270px;
+         overflow: auto;
     }
     .messageForm
     {
         top: 610px;
         left: 50px;
+         overflow: auto;
     }
     #submitButton
     {
         top: 750px;
         left: 50px;
+         overflow: auto;
     }
     #contact
     {
         top: 55px;
         left: 90px;
+         overflow: auto;
     }
     #socialMediaTitle
     {
         top: 250px;
         left: 100px;
+         overflow: auto;
     }
 }
