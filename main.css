@@ -188,7 +188,8 @@ body
 {
     body
     {
-        overflow: scroll;
+        overflow-x: scroll;
+        overflow-y: scroll;
     }
     #socialMedia1
     {
