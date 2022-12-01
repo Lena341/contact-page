@@ -136,6 +136,10 @@ body
 
 @media only screen and (max-width:992px)
 {
+    body
+    {
+        overflow: scroll;
+    }
     #socialMedia1
     {
        position: fixed;
@@ -182,6 +186,10 @@ body
 
 @media only screen and (max-width:600px) 
 {
+    body
+    {
+        overflow: scroll;
+    }
     #socialMedia1
     {
         top: 400px;
