@@ -2,40 +2,41 @@ body
 {
     background-color: white;
     font-family: 'Raleway', sans-serif;
-    overflow: auto;
-    white-space: nowrap;
 }
 
 #contact
 {
+    display: block;
     font-size: 60px;
     font-weight: 100;
     color: black;
     text-decoration: none;
     top: 55px;
     left: 590px;
-    position: fixed;
+    position: absolute;
 }
 
 #socialMedia1
 {
+    display: block;
     color: black;
     font-size: 30px;
     top: 400px;
     left: 750px;
     text-decoration: none;
-    position: fixed;
+    position: absolute;
 }
 
 #socialMedia2
 {
+    display: block;
     text-align: center;
     color: black;
     font-size: 30px;
     text-decoration: none;
     top: 400px;
     left: 650px;
-    position: fixed;
+    position: absolute;
 }
 
 #socialMedia1:hover, #socialMedia2:hover
@@ -45,6 +46,7 @@ body
 
 #submitButton
 {
+    display: block;
     background-color: black;
     padding: 15px 32px;
     border-radius: 4px;
@@ -56,7 +58,7 @@ body
     font-weight: 200;
     display: inline-block;
     cursor: pointer;
-    position: fixed;
+    position: absolute;
     top: 750px;
     left: 500px;
 }
@@ -68,14 +70,17 @@ body
 
 .contactForm
 {
+    display: block;
+    position: absolute;
     font-size: 35px;
     text-decoration: none;
     color: black;
-    position: relative;
 }
 
 .nameForm
 {
+    display: block;
+    position: absolute;
     top: 490px;
     left: 500px;
     position: fixed;
@@ -83,32 +88,19 @@ body
 
 .emailForm
 {
-    position: fixed;
+    display: block;
+    position: absolute;
     top: 490px;
     left: 770px;
 }
 
 .messageForm
 {
-    position: relative;
+    display: block;
+    position: absolute;
     top: 610px;
     left: 500px;
     position: fixed;
-}
-
-.horizontalLine
-{
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-}
-
-.horizontalLine::before, .horizontalLine::after
-{
-    content: "";
-    flex: 1 1;
-    border-bottom: 1px solid black;
-    border-width: 10%;
 }
 
 .myHeader
@@ -116,12 +108,11 @@ body
     background-image: url("forphotoshop1\ \(2\).png");
     width: 100%;
     height: 30%;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     top: 0;
     left: 0;
     float: top;
-    overflow-y: hidden;
     padding: 0;
 }
 
@@ -131,50 +122,41 @@ body
     font-weight:100; 
     top:250px; 
     left: 600px; 
-    position: fixed;
+    display: block;
+    position: absolute;
 }
 
 @media only screen and (max-width:992px)
 {
-    body
-    {
-        overflow: auto;
-    }
     #socialMedia1
     {
-       top: 400px;
-       left: 550px;
-         overflow: auto;
+       top: 200px;
+       left: 300px;
     }
     #socialMedia2
     {
-         overflow: auto;
-        top: 400px;
-        left: 450px;
+        top: 200px;
+        left: 350px;
     }
     .nameForm
     {
         top: 490px;
         left: 300px;
-         overflow: auto;
     }
     .emailForm
     {
         top: 490px;
         left: 570px;
-         overflow: auto;
     }
     .messageForm
     {
         top: 610px;
         left: 300px;
-         overflow: auto;
     }
     #contact
     {
         top: 55px;
         left: 390px;
-         overflow: auto;
     }
     #submitButton
     {
@@ -185,62 +167,76 @@ body
     {
         top: 250px;
         left: 400px;
-         overflow: auto;
     }
 }
 
-@media only screen and (max-width:600px) 
+@media only screen and (max-width:600px)
 {
-    body
+  #socialMedia1
     {
-        overflow: auto;
-    }
-    #socialMedia1
-    {
-        top: 400px;
-        left: 250px;
-         overflow: auto;
+        top: 300px;
+        left: 100px;
+        position: relative;
+        display: block;
+        text-decoration: none;
     }
     #socialMedia2
     {
-        top: 400px;
-        left: 150px;
-         overflow: auto;
+        top: 270px;
+        left: 20px;
+        position: relative;
+        display: block;
+        text-decoration: none;
     }
     .nameForm
     {
-        top: 490px;
+        top: 400px;
         left: 50px;
-         overflow: auto;
+        position: relative;
+        display: block;
     }
     .emailForm
     {
         top: 490px;
         left: 270px;
-         overflow: auto;
+        position: relative;
+        display: block;
     }
     .messageForm
     {
         top: 610px;
         left: 50px;
-         overflow: auto;
+        position: relative;
+        display: block;
     }
     #submitButton
     {
         top: 750px;
         left: 50px;
-         overflow: auto;
+        font-size: 10px;
+        position: relative;
+        display: block;
     }
     #contact
     {
-        top: 55px;
-        left: 90px;
-         overflow: auto;
+        top: 60px;
+        left: 110px;
+        font-size: 40px;
+        position: relative;
+        display: block;
     }
     #socialMediaTitle
     {
         top: 250px;
-        left: 100px;
-         overflow: auto;
+        left: 120px;
+        font-size: 30px;
+        position: relative;
+        display: block;
+    }
+    .contactForm
+    {
+        font-size: 20px;
+        position: relative;
+        display: block;
     }
 }
