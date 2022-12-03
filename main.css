@@ -257,5 +257,9 @@ body
         position: relative;
         display: block;
     }
-    
+    .myHeader
+    {
+        height:30%;
+        width:150px;
+    }
 }
