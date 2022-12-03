@@ -218,14 +218,14 @@ body
     }
     .emailForm
     {
-        top: 350px;
-        left: 270px;
+        top: 410px;
+        left: 40px;
         position: relative;
         display: block;
     }
     .messageForm
     {
-        top: 410px;
+        top: 420px;
         left: 40px;
         position: relative;
         display: block;
