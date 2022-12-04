@@ -191,7 +191,13 @@ body
 
 @media only screen and (max-width:500px)
 {
-  #socialMedia1
+    body
+   {
+       overflow-x: hidden;
+       max-width: fit-content;
+       max-height: fit-content;
+   }
+   #socialMedia1
     {
         top: 300px;
         left: 150px;
