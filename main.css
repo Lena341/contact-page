@@ -266,7 +266,8 @@ body
     {
         width: 100%;
         height: 30%;
-       
-        
+        float:none;
+        display:block;
+        margin-right:0;
     }
 }
