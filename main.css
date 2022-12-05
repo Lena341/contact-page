@@ -193,9 +193,7 @@ body
 {
    body
    {
-       height: 100%;
-       width: 100%;
-       overflow-x:hidden !important;
+      overflow-x:hidden !important;
        overflow-y:scroll;
    }
    #socialMedia1
