@@ -191,10 +191,10 @@ body
 
 @media only screen and (max-width:500px)
 {
-    #wrapper
+   #myWrapper
    {
        overflow-x:hidden !important;
-       overflow-y: scroll;
+       overflow-y: scroll !important;
    }
    #socialMedia1
     {
