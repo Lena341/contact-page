@@ -191,10 +191,10 @@ body
 
 @media only screen and (max-width:500px)
 {
-   #myWrapper
+   body
    {
        overflow-x:hidden !important;
-       position:relative;
+       position: fixed;
    }
    #socialMedia1
     {
