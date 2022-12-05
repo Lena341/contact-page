@@ -196,7 +196,8 @@ body
        height: 100%;
        width: 100%;
        overflow-x:hidden !important;
-       position: absolute;
+       overflow-y:scroll;
+       position: relative;
    }
    #socialMedia1
     {
