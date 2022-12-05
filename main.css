@@ -191,11 +191,7 @@ body
 
 @media only screen and (max-width:500px)
 {
-    body
-   {
-      overflow-x:hidden !important;
-       overflow-y: scroll !important;
-   }
+   
    #socialMedia1
     {
         top: 300px;
