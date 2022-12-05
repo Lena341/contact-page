@@ -194,7 +194,7 @@ body
    #myWrapper
    {
        overflow-x:hidden !important;
-       overflow-y: scroll !important;
+       position:relative;
    }
    #socialMedia1
     {
