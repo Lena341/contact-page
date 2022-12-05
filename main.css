@@ -193,7 +193,8 @@ body
 {
     body
    {
-      overflow-x:hidden;
+      overflow-x:hidden !important;
+       overflow-y: scroll !important;
    }
    #socialMedia1
     {
