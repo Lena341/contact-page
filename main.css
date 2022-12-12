@@ -16,30 +16,17 @@ body
     left: 590px;
     position: absolute;
 }
-
-#socialMedia1
+.socialMedia
 {
     display: block;
     color: black;
     font-size: 30px;
     top: 400px;
-    left: 750px;
+    left: 670px;
+    padding-left: 20px;
     text-decoration: none;
     position: absolute;
 }
-
-#socialMedia2
-{
-    display: block;
-    text-align: center;
-    color: black;
-    font-size: 30px;
-    text-decoration: none;
-    top: 400px;
-    left: 650px;
-    position: absolute;
-}
-
 #socialMedia1:hover, #socialMedia2:hover
 {
     color: mediumpurple;
@@ -196,20 +183,13 @@ body
       overflow-x:hidden !important;
        overflow-y:scroll;
    }
-   #socialMedia1
-    {
-        top: 300px;
-        left: 120px;
-        position: relative;
-        text-decoration: none;
-    }
-    #socialMedia2
-    {
-        top: 270px;
-        left: 20px;
-        position: relative;
-        text-decoration: none;
-    }
+    .socialMedia
+   {
+      position: relative;
+      display: block;
+      top: 20px;
+      left: -110px;
+   }
     .nameForm
     {
         top: 400px;
