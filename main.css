@@ -199,14 +199,14 @@ body
    #socialMedia1
     {
         top: 300px;
-        left: 120px;
+        left: 220px;
         position: relative;
         text-decoration: none;
     }
     #socialMedia2
     {
         top: 270px;
-        left: 20px;
+        left: -60px;
         position: relative;
         text-decoration: none;
     }
