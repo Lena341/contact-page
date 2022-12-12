@@ -22,12 +22,12 @@ body
     color: black;
     font-size: 30px;
     top: 400px;
-    left: 670px;
-    padding-left: 20px;
+    left: 610px;
     text-decoration: none;
     position: absolute;
 }
-#socialMedia1:hover, #socialMedia2:hover
+
+#github:hover, #linkedin:hover
 {
     color: mediumpurple;
 }
@@ -187,8 +187,10 @@ body
    {
       position: relative;
       display: block;
-      top: 20px;
-      left: -110px;
+      top: 280px;
+      left: 130px;
+      font-size: 20px;
+      color: black;
    }
     .nameForm
     {
