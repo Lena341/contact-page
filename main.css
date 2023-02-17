@@ -20,3 +20,43 @@ body
 {
     background-color: mediumpurple;
 }
+
+@media only screen and (min-width:800px)
+{
+    #myForm
+    {
+        margin-left: 150px;
+    }
+}
+
+@media only screen and (min-width:1000px) 
+{
+    #myForm
+    {
+        margin-left: 250px;
+    }
+}
+
+@media only screen and (min-width:1200px) 
+{
+    #myForm
+    {
+        margin-left: 350px;
+    }
+}
+
+@media only screen and (min-width:1300px)
+{
+    #myForm
+    {
+        margin-left: 400px;
+    }
+}
+
+@media only screen and (min-width:1400px)
+{
+    #myForm
+    {
+        margin-left: 450px;
+    }
+}
