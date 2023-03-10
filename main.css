@@ -9,8 +9,8 @@ body
 #myHeader
 {
     background-image: url("forphotoshop1 (2).png");
-    width:100%;
-    height:35%;
+    width: 100%;
+    height: 35%;
     font-size: 25px;
     font-weight: 200;
     color: black;
@@ -21,11 +21,28 @@ body
     background-color: mediumpurple;
 }
 
+#footerBg
+{
+   background-color: rgb(172, 141, 235);
+   position: absolute;
+   left: 0;
+   right: inherit;
+   margin-bottom: 0px;
+   width: 100%;
+   height: 50px;
+}
+
+#myButton
+{
+    margin-bottom: 50px;
+    margin-left: -50px;
+}
+
 @media only screen and (min-width:800px)
 {
     #myForm
     {
-        margin-left: 150px;
+        margin-left: 130px;
     }
 }
 
@@ -34,6 +51,11 @@ body
     #myForm
     {
         margin-left: 250px;
+    }
+
+    #myButton
+    {
+        margin-left: -10px;
     }
 }
 
@@ -49,7 +71,7 @@ body
 {
     #myForm
     {
-        margin-left: 400px;
+        margin-left: 350px;
     }
 }
 
@@ -57,17 +79,33 @@ body
 {
     #myForm
     {
-        margin-left: 450px;
+        margin-left: 400px;
     }
 }
 
-#footerBg
+@media only screen and (max-width:600px) 
 {
-   background-color: rgb(172, 141, 235);
-   position: absolute;
-   bottom: 0;
-   left: 0;
-   right: inherit;
-   width: 100%;
-   height: 50px;
+    #myForm
+    {
+        margin-left: 10px;
+    }
+
+    #myButton
+    {
+        margin-top: -20px;
+        margin-left: -300px;
+        margin-bottom: 50px;
+    }
+
+    #linkedinLink::after
+    {
+        content: "\a";
+        white-space: pre;
+    }
+
+    #linkedinLink::before
+    {
+        content: "\a";
+        white-space: pre;
+    }
 }
