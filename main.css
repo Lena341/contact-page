@@ -35,7 +35,6 @@ body
 #myButton
 {
     margin-bottom: 50px;
-    margin-left: -50px;
 }
 
 @media only screen and (min-width:800px)
@@ -43,6 +42,11 @@ body
     #myForm
     {
         margin-left: 130px;
+    }
+
+    #myButton
+    {
+        margin-left: -100px;
     }
 }
 
@@ -55,7 +59,7 @@ body
 
     #myButton
     {
-        margin-left: -10px;
+        margin-left: -200px;
     }
 }
 
@@ -64,6 +68,11 @@ body
     #myForm
     {
         margin-left: 350px;
+    }
+
+    #myButton
+    {
+        margin-left: -300px;
     }
 }
 
@@ -81,9 +90,14 @@ body
     {
         margin-left: 400px;
     }
+
+    #myButton
+    {
+        margin-left: -260px;
+    }
 }
 
-@media only screen and (max-width:600px) 
+@media only screen and (max-width:800px) 
 {
     #myForm
     {
@@ -92,8 +106,10 @@ body
 
     #myButton
     {
+        position: relative;
+        float: left;
+        margin-left: 10px;
         margin-top: -20px;
-        margin-left: -300px;
         margin-bottom: 50px;
     }
 
